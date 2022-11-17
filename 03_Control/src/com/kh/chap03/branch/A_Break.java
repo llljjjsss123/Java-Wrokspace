@@ -17,7 +17,7 @@ public class A_Break {
 		while(true) {
 			//랜덤값 추출
 			int random=(int)(Math.random()*100+1);
-			//랜검값을 출력 
+			//랜덤값을 출력 
 			System.out.println("random:"+random);
 			//랜덤값이 3의 배수인지 검사
 			if(random %3==0) {
@@ -51,7 +51,7 @@ public class A_Break {
 			
 			if(num>0) {//양수 제대로 입력->1~num출력 후 종료
 				for(int i=1; i<=num; i++) {
-					System.out.println(i+" ");
+					System.out.println(i);
 				}
 				break;
 			}

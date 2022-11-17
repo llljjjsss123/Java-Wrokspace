@@ -5,9 +5,10 @@ public class Run1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		LoopPractice lp=new LoopPractice();
-		//lp.practice8();
+		lp.practice3();
 		B_While bw=new B_While();
-		bw.method7();
+		//bw.method7();
+	 
 	}
 
 }
