@@ -8,6 +8,6 @@ public class Run {
 		C_DimensionalArray cda=new C_DimensionalArray();
 		//cda.method7();
 		DimensionPractice dp=new DimensionPractice();
-		dp.practice2();
+		dp.practice8();
 	}
 }
