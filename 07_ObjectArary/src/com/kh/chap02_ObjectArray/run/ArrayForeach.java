@@ -56,12 +56,12 @@ public class ArrayForeach {
 	 //xx핸드폰의 가격은 xxx원입니다.
 	 //없다면 해당 핸드폰은 없습니다. 출력
 	 Scanner sc=new Scanner(System.in);
-	 String series=sc.nextLine();
 	 System.out.println("핸드폰 시리즈을 입력해주세요: ");
+	 String series=sc.nextLine();
 	 int count=0;
 		for(Phone phone:phones ) {
-			if(phone.equals(series)) {
-				System.out.println(phone.getName()+phone.getSeries()+" 핸드폰의 가격은 : "+phone.getPrice());
+			if(phone.getSeries().equals(series)) {
+				System.out.println(phone.getName()+phone.getSeries()+" 핸드폰의 가격은 : "+phone.getPrice()+"원 입니다");
 				count++;
 				break;
 			}
