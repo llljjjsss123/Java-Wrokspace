@@ -38,7 +38,7 @@ public class PointMenu {
 		switch(num) {
 		case 1: calcCircum();break;
 		case 2: calcCircleArea();break;
-		case 9:return;
+		case 9:
 			default: return; 
 		}
 		}
@@ -55,7 +55,7 @@ public class PointMenu {
 			switch(num) {
 			case 1:  calcPerimeter();break;
 			case 2: calcRectArea();break;
-			case 9:
+			case 9: 
 				default: return; 
 			}
 		}
