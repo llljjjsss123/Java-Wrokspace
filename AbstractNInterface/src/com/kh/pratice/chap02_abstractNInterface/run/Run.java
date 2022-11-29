@@ -1,5 +1,12 @@
 package com.kh.pratice.chap02_abstractNInterface.run;
 
-public class Run {
+import com.kh.pratice.chap02_abstractNInterface.controller.PhoneController;
 
+public class Run {
+	public static void main(String[] args) {
+		String[] arr= new PhoneController().method();
+		for(String result: arr) {
+			System.out.println(result);
+		}
+	}
 }
